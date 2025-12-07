@@ -345,40 +345,7 @@
 <pre>
 src
 ├── ru.fadeev
-│   ├── Animal
-│   │   ├── Interface
-│   │   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Animal/Interface/Meowable.java">Meowable.java</a>
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Animal/Cat.java">Cat.java</a>
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Animal/ExtrMeow.java">ExtrMeow.java</a>
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Animal/MeowCount.java">MeowCount.java</a>
-│   ├── Competition
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Competition/AnalyzeFile.java">AnalyzeFile.java</a>
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Competition/Participant.java">Participant.java</a>
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Competition/Score.txt">Score.txt</a>
-│   ├── Lists
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Lists/MergeList.java">MergeList.java</a>
-│   ├── Mathem
-│   │   ├── Interfaces
-│   │   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Mathem/Interfaces/FractionOnInterface.java">FractionOnInterface.java</a>
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Mathem/CacheFraction.java">CacheFraction.java</a>
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Mathem/Fraction.java">Fraction.java</a>
-│   ├── Queue
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Queue/QueueElem.java">QueueElem.java</a>
-│   ├── Stream
-│   │   ├── geometry
-│   │   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Stream/geometry/InputPoint.java">InputPoint.java</a>
-│   │   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Stream/geometry/Line.java">Line.java</a>
-│   │   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Stream/geometry/Point.java">Point.java</a>
-│   │   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Stream/geometry/Polyline.java">Polyline.java</a>
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Stream/people.txt">people.txt</a>
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Stream/Stream.java">Stream.java</a>
-│   ├── Text
-│   │   ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Text/CountLetter.java">CountLetter.java</a>
-│   │   └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Text/text.txt">text.txt</a>
-│   └── UserPanel
-│       ├── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/UserPanel/CheckInput.java">CheckInput.java</a>
-│       └── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/UserPanel/UserPanel.java">UserPanel.java</a>
-└── <a href="https://github.com/Fartem654/Lab5/blob/master/src/ru/fadeev/Main.java">Main.java</a>
+│   ├──
 </pre>
 
 <h2 id="как-запустить">Как запустить</h2>
