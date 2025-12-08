@@ -75,7 +75,7 @@ public class UserPanel {
 		cacheHandler(CacheClass.class);
 		System.out.println();
 	}
-
+	/// Метод для выбора задания
 	public void choiceTask() {
 		int task = 0;
 		System.out.println("Выберите задание: ");

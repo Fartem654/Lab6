@@ -140,7 +140,7 @@ public class Handler {
 	/// Обработчик, который выводит список всех кешируемых областей или сообщение, что
 	/// список пуст.
 	///
-	/// @param clazz класс, в котором нужно вывести массив типов из аннотации
+	/// @param clazz класс, в котором нужно вывести массив кешируемых областей из аннотации
 	public static void cacheHandler(Class<?> clazz) {
 		if (clazz == null) {
 			throw new IllegalArgumentException("Параметр clazz не может быть null");

@@ -6,7 +6,7 @@ import ru.fadeev.Annotations.Invoke;
 
 
 /// Класс для демонстрации работы аннотации Cache с областями {"users", "orders"} или {} и аннотации Invoke
-@Cache({"users", "orders"})
+@Cache//({"users", "orders"})
 public class CacheInvokeClass {
 
 	private final Map<String, Object> cache;
