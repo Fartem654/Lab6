@@ -73,7 +73,7 @@
         </ul>
     </ul>
 <h4>Тесты</h4>
-
+<img width="165" height="74" alt="image" src="https://github.com/user-attachments/assets/478fdd27-a098-4094-a039-91b50bbfb72d" />
 
 <h3 id="задание12">Задание 1.2</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -111,6 +111,7 @@
     </ul>
 
 <h4>Тесты</h4>
+<img width="454" height="75" alt="image" src="https://github.com/user-attachments/assets/bf9ffb24-eada-45ba-a954-de0cd0d6ef68" />
 
 <h3 id="задание13">Задание 1.3</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -152,6 +153,7 @@
     </ul>
 
 <h4>Тесты</h4>
+<img width="343" height="153" alt="image" src="https://github.com/user-attachments/assets/3487c30f-5ee0-44af-af0b-f19d4ca19074" />
 
 <h3 id="задание14">Задание 1.4</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -189,6 +191,7 @@
     </ul>
 
 <h4>Тесты</h4>
+<img width="401" height="263" alt="image" src="https://github.com/user-attachments/assets/8bd4bd16-1be3-4e4c-9f92-69e06443a056" />
 
 <h3 id="задание15">Задание 1.5</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -226,6 +229,7 @@
     </ul>
 
 <h4>Тесты</h4>
+<img width="239" height="70" alt="image" src="https://github.com/user-attachments/assets/fe2f91d5-dad5-4f0a-8e64-e2322971cd7d" />
 
 <h3 id="задание16">Задание 1.6</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -242,7 +246,7 @@
  <p><strong><code>@Cache</code></strong></p>
     <ul>
       <li>
-    Описывается аннотация <strong>Cache</strong> со свойством <code>String[] value() default {}</code> - для указания кешируемых областей, мо умолчанию пустой массив
+    Описывается аннотация <strong>Cache</strong> со свойством <code>String[] value() default {}</code> - для указания кешируемых областей, по умолчанию пустой массив
     </li>
     <li>
      Данная аннотация только для типов - <code>@Target({ElementType.TYPE})</code>, доступная во время исполнения программы - <code>@Retention(RetentionPolicy.RUNTIME)</code>
@@ -264,6 +268,7 @@
     </ul>
 
 <h4>Тесты</h4>
+<img width="225" height="117" alt="image" src="https://github.com/user-attachments/assets/d7921cd2-ffc2-4a61-9ef4-aa52c5b126ed" />
 
 <h3 id="задание21">Задание 2.1</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -278,25 +283,26 @@
     Из задания 1.3 берется класс <code>toStringClass</code> c полями <code>private String field1</code> - без аннотации; <code>public int field2</code> - просто с аннотацией ToString;  <code>public boolean field3</code> - с аннотацией @ToString(Mode.NO)
     </li>
     <li>
-        Также реализуется коснтруктор
+        Также в  данном классе присутствует коснтруктор
     </li>
     <li>
-      Создается класс <code>Tests</code>, в нем метод <code>testToString</code> помеченный аннотацией <code>testToString</code> из фреймворка <code>JUnit</code>
+      Создается класс <code>Tests</code>, в нем метод <code>testToString</code> помеченный аннотацией <code>Test</code> из фреймворка <code>JUnit</code>
     </li>
     <ul>
         <li>
             Метод создает объект класса <code>toStringClass</code> с параметрами: "Первый", "3", "true"
         </li>
         <li>
-            В строковое поле <code>result</code> сохранят вывод методо обработчика <code>toStringForm(toStr)</code>
+            В строковое поле <code>result</code> сохранятся вывод метода обработчика <code>toStringForm(toStr)</code>
         </li>
         <li>
-            С помощью метода <code>assertTrue</code> из фреймворка <code>JUnit</code> проверяем с помощью <code>result.contains()</code> содержит ли результирующая строка ожидаемые значения "field1 = Первый", "field2 = 3", "field3 = true"
+            С помощью метода <code>assertTrue</code> из фреймворка <code>JUnit</code> с использованием метода <code>contains()</code> проверяем, содержит ли результирующая строка ожидаемые значения "field1 = Первый", "field2 = 3", "field3 = true"
         </li>
     </ul>
     </ul>
 
 <h4>Тесты</h4>
+<img width="768" height="141" alt="image" src="https://github.com/user-attachments/assets/a388edd4-1e82-4233-b323-a7e0d59988e1" />
 
 <h3 id="задание27">Задание 2.7</h3>
 <p><strong>Текст задачи:</strong><br></p>
@@ -309,20 +315,20 @@
 <p><strong><code>testCahceInvoke</code></strong></p>
     <ul>
     <li>
-    Создается класс <code>tCacheInvokeClass</code> c полем <code>private final Map(String, Object) cache</code> - являющийся кешем
+    Создается класс <code>CacheInvokeClass</code> c полем <code>private final Map(String, Object) cache</code> - являющийся кешем
     </li>
     <li>
-        Реализуется коснтруктор и метод <code>cacheData</code> моделирующий кеширование с использованием метаданных своего класса, если у класса есть аннотация областями для кеширования, метод выполнит кеширование
+        Реализуется коснтруктор и метод <code>cacheData</code> моделирующий кеширование с использованием метаданных своего класса, если у класса есть аннотация с областями для кеширования, метод выполнит кеширование
     </li>
     <li>
-      В классе <code>Tests</code> создается метод <code>testCahceInvoke</code> помеченный аннотацией <code>testToString</code> из фреймворка <code>JUnit</code>
+      В классе <code>Tests</code> создается метод <code>testCahceInvoke</code> помеченный аннотацией <code>Test</code> из фреймворка <code>JUnit</code>
     </li>
     <ul>
         <li>
             Метод создает имитацию словаря с помощью <code>Mockito.mock(Map.class)</code> -  <code>Map(String, Object) cache = Mockito.mock(Map.class)</code>
         </li>
         <li>
-            Создается объект класса <code>tCacheInvokeClass</code> с параметром cache - моком, отслеживающий все взаимодействия с ним
+            Создается объект класса <code>CacheInvokeClass</code> с параметром cache - моком, отслеживающий все взаимодействия с ним
         </li>
         <li>
             Если класс имеет аннотацию <code>Cache</code>, то если его список кешируемых областей не пустой, с помощью <code>assertArrayEquals</code> сравниваются массивы: new String[]{"users", "orders"} - ожидаемое, regions - резелтирующее
@@ -331,21 +337,45 @@
             Далее с помощью <code>invokeHandler(cachInv)</code> вызывается метод <code>cacheData()</code>, так как он помечен аннотацией <code>Invoke</code>
         </li>
         <li>
-            С помощью метода <code>verify(cache)</code> проверяем применялись ли к <code>cache</code> методы <code>put</code> имитирующие кеширование в классе <code>tCacheInvokeClass</code>
+            С помощью метода <code>verify(cache)</code> проверяем применялись ли к <code>cache</code> методы <code>put</code> имитирующие кеширование в классе <code>CacheInvokeClass</code>
         </li>
         <li>
-            Если же класс аннотация класса имеет пустой список кеширующих областей, проверяется что этот список действительно пуст, а после вызова кеширования с моком не выполнялось никаких взаимодействий
+            Если же аннотация класса имеет пустой список кеширующих областей, проверяется что этот список действительно пуст, а после вызова кеширования, с моком не выполнялось никаких взаимодействий
         </li>
     </ul>
     </ul>
 
 <h4>Тесты</h4>
+<p>Случай, когда список кешируемых областей не пуст: </p>
+<img width="1480" height="224" alt="image" src="https://github.com/user-attachments/assets/62c53f5a-a24d-4c66-b11f-55d22d0ae2e9" />
+<p>Случай, когда список кешируемых областей пустой: </p>
+<img width="1493" height="237" alt="image" src="https://github.com/user-attachments/assets/bf41afb3-b892-481d-9c58-94af5fbc5e73" />
 
 <h2 id="структура-проекта">Структура проекта</h2>
 <pre>
-src
-├── ru.fadeev
-│   ├──
+src/
+└── ru.fadeev
+    ├── Annotations
+    │   ├── Cache.java
+    │   ├── Default.java
+    │   ├── Invoke.java
+    │   ├── ToString.java
+    │   ├── Two.java
+    │   └── Validate.java
+    ├── Classes
+    │   ├── CacheClass.java
+    │   ├── CacheInvokeClass.java
+    │   ├── DefaultClass.java
+    │   ├── Handler.java
+    │   ├── InvokeClass.java
+    │   ├── ToStringClass.java
+    │   ├── TwoClass.java
+    │   ├── ValidateClass.java
+    │   └── Tests.java
+    ├── UserPanel
+    │   ├── CheckInput.java
+    │   └── UserPanel.java
+    └── Main.java
 </pre>
 
 <h2 id="как-запустить">Как запустить</h2>
